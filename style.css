@@ -1,0 +1,93 @@
+header {
+    background-color: rgb(0, 21, 255);
+    position: fixed;
+    z-index: 1;
+    width: 1500;
+    height: 125px;
+    top: -10px;
+}
+
+header img {
+    width: 159px;
+}
+
+.abobus {
+    opacity: 0;
+    position: relative;
+    left: -160;
+}
+
+.abobus:hover {
+opacity: 1;
+transition: 1s;
+}
+
+main {
+    background-color: rgb(56, 56, 255);
+}
+
+.money {
+    width: 1440px;
+    position: relative;
+}
+
+.slogan {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: -750px;
+    left: 250px;
+}
+
+.pervi {
+    font-size: 30px;
+    position: relative;
+    top: -740px;
+    left: 700px;
+}
+
+.pravila {
+    text-align: center;
+    position: relative;
+    top: -600px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.ol {
+    position: relative;
+    top: -600;
+}
+
+main {
+    height: 1100;
+}
+
+footer {
+    background-color: blue;
+}
+
+.discord {
+    width: 106px;
+    border-radius: 25px;
+}
+
+.doza {
+    width: 30px;
+    position: relative;
+    left: 301;
+    top: -15;
+    opacity: 0;
+}
+
+.doza:hover {
+    width: 30px;
+    position: relative;
+    left: 301;
+    top: -15;
+    opacity: 1;
+    transition: 2s;
+}
